@@ -1,5 +1,12 @@
 # OpenWorkers Runtime - Deno
 
+> **Archived.** Superseded by
+> [openworkers-runtime-v8](https://github.com/openworkers/openworkers-runtime-v8),
+> which embeds V8 directly (isolate pooling, startup snapshots, per-worker
+> limits) without the deno_core dependency. No further updates; kept for
+> reference. Targets openworkers-core v0.5 and does not build against
+> current platform versions.
+
 The original JavaScript runtime for OpenWorkers based on [deno_core](https://github.com/denoland/deno_core) - featuring V8 with selected Deno extensions for Web API support.
 
 ## Features
